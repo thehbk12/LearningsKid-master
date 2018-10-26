@@ -18,27 +18,19 @@ public class UserHomeContent extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user_home_content);
 
-        Name = (TextView)findViewById(R.id.textView1);
-        LogOUT = (Button)findViewById(R.id.button1);
+        Name = findViewById(R.id.textView1);
+        LogOUT = findViewById(R.id.button1);
 
         Intent intent = getIntent();
-
-        // Receiving User Email Send By MainActivity.
         NameHolder = intent.getStringExtra(MainActivity.UserName);
 
-        // Setting up received email to TextView.
         Name.setText(Name.getText().toString()+ NameHolder);
 
-        // Adding click listener to Log Out button.
         LogOUT.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
-                //Finishing current DashBoard activity on button click.
                 finish();
-
                 Toast.makeText(UserHomeContent.this,"Log Out Successfuly", Toast.LENGTH_LONG).show();
-
             }
         });
 

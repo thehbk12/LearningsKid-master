@@ -9,13 +9,9 @@ public class SQLiteHelper extends SQLiteOpenHelper {
     static String dbName = "LearningKid";
 
     public static final String tableName = "UserTable";
-
     public static final String Table_Column_ID = "id";
-
     public static final String Table_Column_1_Name = "name";
-
     public static final String Table_Column_2_Email = "email";
-
     public static final String Table_Column_3_Password = "password";
 
     public SQLiteHelper(Context context) {
