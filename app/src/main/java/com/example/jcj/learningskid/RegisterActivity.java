@@ -12,7 +12,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 public class RegisterActivity extends AppCompatActivity {
-
+//
     EditText Email, Password, Name;
     Button Register;
     String NameHolder, EmailHolder, PasswordHolder;

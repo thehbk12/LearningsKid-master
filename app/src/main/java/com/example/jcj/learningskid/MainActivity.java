@@ -14,7 +14,7 @@ import android.widget.Toast;
 import org.w3c.dom.Text;
 
 public class MainActivity extends AppCompatActivity {
-    // day la login page
+    // day la login page//
     Button LogInButton, RegisterButton;
     EditText Name, Password;
     String NameHolder, PasswordHolder;

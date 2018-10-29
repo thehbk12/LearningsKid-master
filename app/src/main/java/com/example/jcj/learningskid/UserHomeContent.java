@@ -9,6 +9,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class UserHomeContent extends AppCompatActivity {
+    //
 
     String NameHolder;
     TextView Name;

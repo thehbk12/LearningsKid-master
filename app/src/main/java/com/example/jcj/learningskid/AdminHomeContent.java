@@ -9,7 +9,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class AdminHomeContent extends AppCompatActivity {
-
+//
     String NameHolder;
     TextView Name;
     Button LogOUT;
